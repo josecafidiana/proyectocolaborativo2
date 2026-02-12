@@ -1,0 +1,32 @@
+.contenedor{
+    background-color: red;
+    height: 200px;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction:row; /*Puedes asignarlo en "row" o "colum" y tambien aplicarle un "reverse"  */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /*justify-content: flex-end;*/
+    /*justify-content: center;/*center left right */
+    /*justify-content: space-around;*/
+    /*justify-content: space-between;*/
+    /*justify-content: flex-start;*/
+    align-items: stretch;
+    /*Los mismos atrivutos que el justify-content */
+}
+
+.contenedor div{
+    background-color: aqua;
+    border: 2px solid black;
+    height: 20px;
+    width: 200px;
+
+}
+
+.contenedor:nth-child(1){
+    height: 50px;
+}
+.contenedor:nth-child(3){
+    height: 70px;
+}
