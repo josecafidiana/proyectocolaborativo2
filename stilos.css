@@ -1,0 +1,47 @@
+*{
+    font-family: "Lobster", cursive;
+}
+.titulo{
+    height: 100px auto;
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+}
+.menu{
+    height: 200px;
+    width: 25%;
+    float: left;
+    padding: 1s0px;
+    display: flex;
+    flex-direction:column;
+
+}
+.principal{
+    margin-left:25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.principal div{
+    height: 200px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.principal div img{
+    width: 90%;
+    object-fit: contain;
+    border-radius: 8px; 
+} 
+.pie{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
